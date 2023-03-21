@@ -9,7 +9,7 @@ class App extends Component {
     this.state = {
       articles: [],
       categories: [
-        { name: 'Umum', id: 'general' },
+        { name: 'General', id: 'general' },
         { name: 'Bisnis', id: 'business' },
         { name: 'Teknologi', id: 'technology' },
         { name: 'Hiburan', id: 'entertainment' },
@@ -44,7 +44,7 @@ class App extends Component {
     return (
       <Router>
         <div className="container">
-          <h1>News App</h1>
+          <h1>Berita</h1>
           <nav>
             <ul className="nav nav-tabs">
               {this.state.categories.map((category) => (
